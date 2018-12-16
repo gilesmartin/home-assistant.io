@@ -28,6 +28,7 @@ To get started add the following information to your `configuration.yaml` file:
 eight_sleep:
   username: YOUR_E_MAIL_ADDRESS
   password: YOUR_PASSWORD
+  partner: TRUE
 ```
 
 {% configuration %}
@@ -39,7 +40,7 @@ password:
   description: The password associated with your Eight Sleep account.
   required: true
   type: string
-password:
+partner:
   description: Defines if you'd like to fetch data for both sides of the bed.
   required: false
   type: string
